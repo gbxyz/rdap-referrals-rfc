@@ -41,9 +41,9 @@ organization = "ICANN"
 
 .# Abstract
 
-This document outlines how RDAP servers can provide HTTP `Link` header fields in
-RDAP responses to allow RDAP clients to efficiently determine the URL of related
-RDAP records for a resource.
+This document describes how RDAP servers can provide HTTP `Link` header fields
+in RDAP responses to allow RDAP clients to efficiently determine the URL of
+related RDAP records for a resource.
 
 {mainmatter}
 
