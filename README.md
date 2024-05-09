@@ -1,4 +1,4 @@
-# Efficient RDAP Registrar Referrals
+# Efficient RDAP Referrals
 
 This document describes how RDAP servers can provide HTTP `Link` header fields
 in RDAP responses to allow RDAP clients to efficiently determine the URL of
