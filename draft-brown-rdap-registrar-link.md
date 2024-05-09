@@ -1,6 +1,6 @@
 %%%
 title = "Efficient RDAP Referrals"
-abbrev = "RDAP Registrar Links"
+abbrev = "Efficient RDAP Referrals"
 ipr = "trust200902"
 area = "Internet"
 workgroup = "Registration Protocols Extensions (regext)"
@@ -8,7 +8,7 @@ consensus = true
 
 [seriesInfo]
 name = "Internet-Draft"
-value = "draft-brown-rdap-registrar-link"
+value = "draft-brown-rdap-referrals"
 stream = "IETF"
 status = "standard"
 
