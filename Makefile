@@ -3,8 +3,8 @@ VERSION="00"
 all: build
 
 build:
-	@mmark draft-brown-rdap-registrar-link.md > draft-brown-rdap-registrar-link-$(VERSION).xml 
-	@xml2rfc --html draft-brown-rdap-registrar-link-$(VERSION).xml
+	@mmark draft-brown-rdap-referrals.md > draft-brown-rdap-referrals-$(VERSION).xml 
+	@xml2rfc --html draft-brown-rdap-referrals-$(VERSION).xml
 
 clean:
 	@rm -f *xml *html
