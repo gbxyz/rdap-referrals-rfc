@@ -1,8 +1,8 @@
 # Efficient RDAP Registrar Referrals
 
-This document outlines how RDAP servers can provide the HTTP `Link` header
-fields in RDAP responses to allow RDAP clients to efficiently determine the URL
-of the sponsoring registrar's RDAP record for a domain name or other resource.
+This document outlines how RDAP servers can provide HTTP `Link` header fields in
+RDAP responses to allow RDAP clients to efficiently determine the URL of related
+RDAP records for a resource.
 
 ## Generating the draft
 
