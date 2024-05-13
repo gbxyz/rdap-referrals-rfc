@@ -187,7 +187,7 @@ received header data.
 # RDAP Conformance
 
 Servers which implement this specification **MUST** include the string
-"`registrar_link_header`" in the "`rdapConformance`" array in all RDAP
+"`link_headers`" in the "`rdapConformance`" array in all RDAP
 responses.
 
 # IANA Considerations
