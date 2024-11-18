@@ -120,7 +120,7 @@ example, an RDAP link object which has the following JSON representation:
 }
 ```
 
-may be represented as follows:
+may be represented in an HTTP response header as follows:
 
 ```
 Link: <https://example.com/target_uri>;
@@ -131,10 +131,13 @@ Link: <https://example.com/target_uri>;
   type="application/json"
 ```
 
+In this example, the context URI is the URI that was requested by the user
+agent.
+
 ## Registrar RDAP "`Link`" Header
 
-Following on from the above, the following RDAP link object (which represents
-the RDAP URL of the sponsoring registrar of a resource):
+Following on from the above, the following RDAP link object, which represents
+the RDAP URL of the sponsoring registrar of a resource:
 
 ```json
 {
@@ -196,19 +199,19 @@ IANA is requested to register the following value in the RDAP Extensions
 Registry:
 
 **Extension identifier:**
-: `registrar_link_header`
+: `link_headers`
 
 **Registry operator:**
-: any
+: any.
 
 **Published specification:**
-: this document
+: this document.
 
 **Contact:**
-: IETF <<iesg@ietf.org>>
+: the authors of this document.
 
 **Intended usage:**
-: this extension indicates that the server provides the URL of the registrar's
-RDAP record in a "`Link`" header in responses to RDAP queries.
+: this extension indicates that the server will provide links to related
+resources using "`Link`" headers in responses to RDAP queries.
 
 {backmatter}
