@@ -10,7 +10,8 @@ consensus = true
 name = "Internet-Draft"
 value = "draft-brown-rdap-referrals"
 stream = "IETF"
-status = "experimental"
+status = "standard"
+# status = "experimental"
 
 [[author]]
 fullname="Gavin Brown"
@@ -79,6 +80,8 @@ in responses to `HEAD` and `GET` requests to provide RDAP clients with the URL
 of related RDAP records, without the need for a signalling mechanism for the
 client to tell the server that it is only interested in retrieving those URLs.
 
+<!--
+
 ## Experimental Status
 
 This document has the Experimental status. The authors believe that it
@@ -88,6 +91,8 @@ server and client implementers will be motivated to implement what it describes.
 A revision to this document which places it onto the IETF's Standards Track may
 be appropriate if a non-trivial number of client and server implementers proceed
 to implement it in their software.
+
+-->
 
 # RDAP Link Objects
 
